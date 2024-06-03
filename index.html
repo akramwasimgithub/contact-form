@@ -14,7 +14,9 @@
   <style>
     * {
       font-family: sans-serif;
-      color:#323733;
+      color:#768c7a;
+      
+
     }
     body{
       /* overflow: hidden; */
@@ -27,32 +29,32 @@
 </head>  kj
   <body>
     <div style="width:100%;height:100%;background-color: rgb(190, 225, 225);display:flex;justify-content:center;padding:20%;">
-      <div style="width:40%;height:50%;background-color:white;border-radius:12px;padding:4%;">
+      <div style="width:40%;height:50%;background-color:white;border-radius:15px;padding:4%;">
         <div
-          style="font-size:30px;">
+          style="font-size:30px; color:rgb(63, 78, 63) ">
           Contact Us
         </div>
         <div style="display:flex;justify-content:space-between;">
           <div style="width:48%;">
             <div style="width:100%;">
-              <h6>First Name</h6>
+              <h6>First Name  *</h6>
             </div>
             <div style="width:100%;">
-              <input type="text" name="firstName" style="border-color:rgb(139, 161, 139);border-radius:5px;border-style: solid;border-width: thin;width: 100%;height: 3em;" />
+              <input type="text" name="firstName" style="border-color:rgb(139, 161, 139);border-radius:6px;border-style: solid;border-width: thin;width: 100%;height: 3em;" />
             </div>
           </div>
           <div style="width:48%;">
             <div style="width:100%;">
-              <h6>Last Name</h6>
+              <h6>Last Name  *</h6>
             </div>
             <div style="width:100%;">
-              <input type="text" name="lastName" style="border-color: rgb(139, 161, 139);border-radius:5px;border-style: solid;border-width: thin;width: 100%;height: 3em;"/>
+              <input type="text" name="lastName" style="border-color: rgb(139, 161, 139);border-radius:6px;border-style: solid;border-width: thin;width: 100%;height: 3em;"/>
             </div>
           </div>
         </div>
         <div style="width:100%;">
           <div style="width:100%;">
-            <h6>Email</h6>
+            <h6>Email Address  *</h6>
           </div>
           <div>
             <input type="text" style="border-color:rgb(139, 161, 139);border-radius:5px;border-style: solid;border-width: thin;width: 100%;height: 3em;">
@@ -60,38 +62,43 @@
         </div>
         <div style="width:100%;">
           <div style="width: 100%;">
-            <h6>Query Type</h6>
+            <h6>Query Type  *</h6>
           </div>
           <div style="display:flex;justify-content: space-between;">
             <div style="width:48%;display: flex;justify-content: start;">
-              <div style="border-color:rgb(139, 161, 139);border-radius:5px;border-style: solid;border-width: thin;width: 100%;height: 3em;">
-                <div><input type="radio" name="generalEnquiry"/></div>
-                <div>General Enquiry</div>
+              <div style="border-color:rgb(139, 161, 139);border-radius:6px;border-style: solid;border-width: thin;width: 100%;height: 3em;">
+                <div style="display: flex;padding: 5% 0% 0% 5%;">
+                  <div style="margin: 0% 3% 0% 0%;"><input type="radio" name="generalEnquiry" style="margin: 0% 3% 0% 0%;"/></div>
+                  <div>
+                    General Enquiry
+                  </div>
+                </div>
               </div>
             </div>
             <div style="width:48%;display: flex;justify-content: start;">
-              <div type="text" style="border-color:rgb(139, 161, 139);border-radius:5px;border-style: solid;border-width: thin;width: 100%;height: 3em;">
-                <div><input type="radio" name="supportRequest"/></div>
-                <div>Support Request</div>
+              <div type="text" style="border-color:rgb(139, 161, 139);border-radius:6px;border-style: solid;border-width: thin;width: 100%;height: 3em;">
+                <div style="display: flex;padding: 5% 0% 0% 5%;">
+                  <div style="margin: 0% 3% 0% 0%;"><input type="radio" name="supportRequest"/></div>
+                  <div>Support Request</div>
               </div>
             </div>
           </div>
         </div>
         <div style="width:100%;">
           <div style="width: 100%;">
-            <h6>Message</h6>
+            <h6>Message  *</h6>
           </div>
           <div style="width:100%;">
-            <textarea id="message" name="message" rows="5" cols="33" style="border-color:rgb(139, 161, 139);border-radius:5px;border-style: solid;border-width: thin;width: 100%;" >
+            <textarea id="message" name="message" rows="5" cols="33" style="border-color:rgb(139, 161, 139);border-radius:6px;border-style: solid;border-width: thin;width: 100%;" >
             </textarea>
           </div>
         </div>
         <div style="width:100%;margin: 5% 0% 5% 0%;display:flex;justify-content: start;">
           <div><input type="checkbox" id="horns" name="horns" /></div>
-          <div>I consent to being contacted by the team</div>
+          <div>I consent to being contacted by the team *</div>
         </div>
         <div style="width: 100%;">
-          <button type="submit" style="color: white;background-color:rgb(4, 130, 88);text-align:center;border-radius:5px;width: 100%;height: 3em; border-style: solid; border-width: thin;border-color: rgb(4, 130, 88);"> Submit </button>
+          <button type="submit" style="color: white;background-color:rgb(4, 130, 88);text-align:center;border-radius:6px;width: 100%;height: 4em; border-style: solid; border-width: thin;border-color: rgb(4, 130, 88);"> Submit </button>
         </div>
       </div>
     </div>
